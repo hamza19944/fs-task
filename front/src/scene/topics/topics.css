@@ -1,0 +1,22 @@
+.app{
+    align-items: flex-start;
+}
+.topics{
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.topic{
+    background-color: beige;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.topic:hover{
+    transform: scale(105%);
+}

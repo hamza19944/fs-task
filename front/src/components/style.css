@@ -1,0 +1,67 @@
+.header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: rgb(50, 67, 60);
+    color: white;
+    position: fixed;
+    align-items: center;
+    z-index: 3;
+}
+.header h1{
+    margin-left: 20px;
+}
+.header nav{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-right: 20px;
+}
+.header nav a{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    text-decoration: none;
+    color: snow;
+}
+.header nav a:hover{
+    color: rgb(207, 207, 207);
+    border-bottom: solid 2px rgb(207, 207, 207);
+}
+.header nav a.active{
+    color: rgb(207, 207, 207);
+    border-bottom: solid 2px rgb(207, 207, 207);
+}
+.header nav span{
+    color: snow;
+    display: flex;
+    align-items: center;
+}
+.header nav .logout{
+    height: fit-content;
+    align-self: center;
+    background-color: #d74f4f;
+    padding: 5px 10px 7px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.header nav .logout:hover{
+    color: snow;
+    border-bottom: none;
+}
+/* end header  */
+footer{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 67, 60);
+    color: white;
+}
+/* start footer  */
