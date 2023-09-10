@@ -22,4 +22,5 @@ npm run start
 ## What to expect
 the project was built using JS as fullstack language, React, Node and mariaDB are the core technologies for this project. you should expect seeing a list of topics and chat related to these topics after siging in
 
+### How the project looks
 ![Project Picutre](https://github.com/hamza19944/fs-task/blob/main/first.jpg)
